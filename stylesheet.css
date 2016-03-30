@@ -27,7 +27,7 @@ body{
 #q{
     z-index: 1;
     text-align: center;
-    color: maroon;
+    color: red;
     font-weight: bold;
     font-size: 30px;
 }
@@ -65,4 +65,8 @@ a{
 }
 #bottom{
     clear: both;
+
+}
+p{
+    font-family:'Poiret one', cursive;
 }
