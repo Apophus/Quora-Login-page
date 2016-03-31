@@ -1,4 +1,6 @@
 body{
+    /** Sets the attributes of the body of the document listed below to set the background image to
+    cove the whole page background**/
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -8,13 +10,15 @@ body{
 
 }
 .links{
+    /**This class will set the presentation of the navigation and
+    the general outlook of the navigation links.**/
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 
 }
-#link{
+#link{/**This id helps create the appearance of the links on the page**/
     display: block;
     text-align: center;
     padding: 20px 20px;
@@ -24,25 +28,26 @@ body{
 #list{
     float: left;
 }
-#q{
+#q{/**Sets the various attributes of the first element on the page(Quora) and sets it on top of the page**/
     z-index: 1;
     text-align: center;
     color: red;
     font-weight: bold;
     font-size: 30px;
 }
-a:hover{
+a:hover{/**sets what happens when the maouse hovers over links**/
     font-weight: bolder;
 }
 a{
     text-decoration: none;
 }
-#caption{
+#caption{/**Sets yhe styling for the words that come just below the Quora title**/
     text-align: center;
     font-family: 'Poiret one', cursive;
 
 }
-.center{
+.center{/**Sets attributes for the center part of the document which contains the login form
+    and several links**/
     display: inline-block;
     margin: auto;
     position: fixed;
@@ -55,6 +60,7 @@ a{
     border: 1px solid dimgray;
 
 }
+/** The left and right ids Sets the positioning of the login form and links in the center of the page.**/
 #left{
    float: left;
 }
@@ -62,7 +68,7 @@ a{
     float: right;
 }
 
-#bottom{
+#bottom{/**Sets the links of the navigation below everything else.**/
     clear: both;
 }
 p{
